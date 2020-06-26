@@ -1,0 +1,399 @@
+.welcome-style{
+  color:#FFCE00; 
+  font-weight: 900; 
+  text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-head{
+  color:#FFCE00; 
+  font-weight: 900; 
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: cooper-black-std,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+  
+.active, .accordion:hover {
+    background-color: burlywood;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #444;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.intro-2 {
+    background: url("thriftstore.jpg")no-repeat center center;
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-3 {
+  background: url("store-background.jpeg")no-repeat center center;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-4 {
+  background: url("specialedition-background.jpg")no-repeat center center;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-5 {
+  background: url("smilecheck-background.jpeg")no-repeat center center;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.intro-6 {
+  background: url("confirmpayment-background.jpg")no-repeat center center;
+  background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color:black;
+}
+
+.right{
+    width:60%;
+    height: 50%;
+    float: left;
+    padding: 15px;
+    padding-top: 35px;
+}
+
+.left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 35px;
+} 
+
+.footer-top{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif; 
+    color: #FFCE00;
+}
+
+.about-us-text{
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  line-height: 150px;
+}
+
+.flex-item-feeds {
+  padding: 5px;
+  width: 250px;
+  height: 500px;
+  margin-top: 10px;
+  line-height: 150px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #000000;
+    }
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+#circle1{
+    background-image: url('store1.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border:1px solid rgb(0, 0, 0);    
+    height:200px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:200px;
+}
+
+#circle2{
+  background-image: url('store2.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border:1px solid rgb(0, 0, 0);    
+  height:200px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:200px;
+}
+
+#circle3{
+  background-image: url('store3.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover; /* Resize the background image to cover the entire container */
+  border:1px solid rgb(0, 0, 0);    
+  height:200px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:200px;
+}
+
+#store-info{
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  line-height: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+#store-name{
+  color: #FFCE00;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#store-item{
+  width: 250px;
+  height: 200px;
+  padding: 5px;
+  line-height: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+#smilechek-item1{
+  background-image: url('smilecheck-item1.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 5px;
+  width: 250px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#smilechek-item2{
+  background-image: url('smilecheck-item2.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 5px;
+  width: 250px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#smilechek-item3{
+  background-image: url('smilecheck-item3.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 5px;
+  width: 250px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#nav-item-color{
+    color: #FFCE00;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#nav-item-color-underline{
+  color: #FFCE00;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: underline;
+}
+
+#navbarDropdownMenuLink3{
+    color: #FFCE00;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+#payment-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+    background-color: whitesmoke;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .social-network a.icoInstagram:hover {
+    background-color: purple;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoInstagram:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+
